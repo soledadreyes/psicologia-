@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  header{
+      background-image: url(../img/fondo1.png);
+      background-size: 100% 100vh;
+      height: 100vh;
+      width: 100%;
+  }
+  .navegacion {
+      display: flex;
+      width: 80%;
+      height: 150px;
+      margin: 0 auto;
+      justify-content: space-between;
+  }
+  ul{
+      height: 150px;
+      display: flex;
+      align-items: center;
+      list-style: none;
+  }
+  li{
+      margin: 0 20px;
+  }
+  .texto_hero {
+      width: 80%;
+      margin: 35vh auto;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .boton{
+      background-color: rgb(68, 151, 247);
+      width: 120px;
+      height: 40px;
+      padding: 10px;
+      text-align: center;
+      margin: 10px 0;
+      border-radius: 10px;
+  }
+  .nuestros_servicios {
+      background-color: #638bc8;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .titulo_articulo{
+      margin: 10px 0;
+  }
+  .texto_nuestros_servicios{
+      width: 80%;
+  }
+  .articulos{
+      width: 80%;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .articulo {
+      margin: 50px 0 ;
+      background-color: #2f66b1;
+      align-items: center;
+      text-align: left;
+      width: 25.8%;
+      display: flex;
+      flex-direction: column;
+      line-height: 1;
+      padding: 20px;
+      border-radius: 20px;
+    }
+  .imagen_articulo {
+      border-radius: 500px;
+    }
+  .descripcion_articulo {
+      padding: 20px;
+  }
+  .boton-1 {
+      background-color: #f68d44;
+      width: 120px;
+      height: 40px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      margin: 10px 150px;
+    }
+  .sobre_nosotros {
+      background-image: url(../img/fondo2.png);
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      padding: 0 10%;
+    }
+  .imagen_nosotros {
+      width: 350px;
+      border-radius: 50%;
+    }
+  .texto_nosotros {
+      margin: 0px 0px 0px 120px;
+    }
+  .descripcion_nosotros {
+      margin: 30px 0;
+    }
+  footer {
+      background-color: black;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenido {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .seccion_footer {
+      width: 25%;
+      margin: 0;
+    }

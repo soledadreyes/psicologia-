@@ -1,0 +1,12 @@
+footer {
+    background-color: #6ecdc4; /* Cambia este valor por el color que desees */
+    color: white;
+    font-size: 14px;
+    padding: 20px 0;
+    
+}
+
+}.custom-img {
+
+    max-width: 80%;
+    height: 80px; /* Mantener la relación de aspecto */

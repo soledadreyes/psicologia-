@@ -1,0 +1,60 @@
+body {
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+.custom-section {
+    height: 100vh; /* Altura de la sección igual a la altura de la ventana */
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    padding: 60px; /* Espaciado interno */
+    border-bottom: 1px solid #ccc; /* Borde inferior para separación visual */
+    font-size: 50px;
+}
+
+.custom-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.custom-text {
+    font-size: 1rem;
+}
+
+.custom-img {
+    max-width: 100%;
+    height: auto; /* Mantener la relación de aspecto */
+}
+
+.custom-navbar {
+    background-color: #6ecdc4 !important; /* Color de fondo personalizado */
+    border-bottom: 2px solid #6ecdc4; /* Borde inferior con el mismo color */
+    margin-bottom: 0; /* Eliminar el margen inferior del navbar */
+    position: fixed; /* Fijar el navbar en la parte superior */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegurar que el navbar esté encima de otros elementos */
+}
+
+.custom-navbar .nav-link {
+    color: white; /* Cambia el color de los enlaces de navegación a blanco */
+    position: sticky ;
+}
+
+.custom-navbar .navbar-brand {
+    color: white; /* Cambia el color del nombre de la marca a blanco */
+}
+
+/* Cambia el color de los enlaces cuando están activos o en hover */
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #f0f0f0; /* Cambia a un color más claro al pasar el mouse */
+    }
+
+.footer{
+    background-color: #6ecdc4 !important;
+
+}
+.social-icons{
+    width: 24px !important; 
+    height: 24px;
+}

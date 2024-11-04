@@ -1,0 +1,21 @@
+.video-section {
+    position: relative;
+    z-index: 1; /* para mantenerlo detrás de otros elementos si es necesario */
+}
+
+.video-container {
+    position: relative;
+    z-index: 0; /* o -1 si necesitas enviarlo más atrás */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
